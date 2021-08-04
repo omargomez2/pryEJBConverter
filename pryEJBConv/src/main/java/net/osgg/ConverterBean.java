@@ -11,7 +11,7 @@ import javax.naming.NamingException;
 
 @Stateless
 @LocalBean
-public class CoverterBean implements ConverterBeanRemote{
+public class ConverterBean implements ConverterBeanRemote{
     
     public float convertToFahrenheit(int celsius) {
         return (celsius * 9 / 5) + 32;
