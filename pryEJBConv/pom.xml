@@ -12,7 +12,7 @@
      <version.ejb.plugin>3.1.0</version.ejb.plugin>
      <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-     <version.server.bom>24.0.0.Final</version.server.bom>
+     <version.server.bom>26.1.1.Final</version.server.bom>
   </properties>
 
 
@@ -21,7 +21,7 @@
     	<dependency>
     		<groupId>org.wildfly.bom</groupId>
     		<artifactId>wildfly-jakartaee8-with-tools</artifactId>
-    		<version>24.0.0.Final</version>
+    		<version>26.1.1.Final</version>
     		<type>pom</type>
     		<scope>import</scope>
     	</dependency>   	
@@ -70,7 +70,7 @@
          <plugin>
     		<groupId>org.wildfly.plugins</groupId>
     		<artifactId>wildfly-maven-plugin</artifactId>
-    		<version>2.1.0.Beta1</version>
+    		<version>3.0.1.Final</version>
             <configuration>
             	<hostname>127.0.0.1</hostname>
                	<port>9990</port>
